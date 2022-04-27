@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/explainer-videos",
+      "handler": "explainer-video.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/explainer-videos/count",
+      "handler": "explainer-video.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/explainer-videos/:id",
+      "handler": "explainer-video.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/explainer-videos",
+      "handler": "explainer-video.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/explainer-videos/:id",
+      "handler": "explainer-video.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/explainer-videos/:id",
+      "handler": "explainer-video.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

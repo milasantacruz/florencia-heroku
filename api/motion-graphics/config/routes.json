@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/motion-graphics",
+      "handler": "motion-graphics.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/motion-graphics/count",
+      "handler": "motion-graphics.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/motion-graphics/:id",
+      "handler": "motion-graphics.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/motion-graphics",
+      "handler": "motion-graphics.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/motion-graphics/:id",
+      "handler": "motion-graphics.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/motion-graphics/:id",
+      "handler": "motion-graphics.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

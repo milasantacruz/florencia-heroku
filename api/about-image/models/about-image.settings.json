@@ -1,0 +1,34 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_images",
+  "info": {
+    "name": "aboutImage",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Florencia": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "titulo": {
+      "type": "string"
+    },
+    "contenido": {
+      "type": "text"
+    }
+  }
+}
